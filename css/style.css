@@ -135,10 +135,20 @@ nav a:hover {
 	border: 6px solid #1A1AB2;
 }
 
-@media (max-widht: 760px) {
+@media (max-widht: 768px) {
 	.hero {
 		flex-direction: column-reverse;
 		text-align: center;
+	}
+
+	.hero-text p {
+		margin: 0 auto 30px auto;
+	}
+
+	.navbar {
+		flex-direction: column;
+		gap: 20px;
+		padding: 20px;
 	}
 }
 

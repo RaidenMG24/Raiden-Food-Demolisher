@@ -1,0 +1,145 @@
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 40px;
+  background-color: #e2e8f0;
+  border-radius: 12px;
+  padding: 50px;
+  min-height: 200px;
+}
+
+.kotak {
+  background-color: white;
+  color: #ffffff;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 8px;
+  width: 120px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.kotaks {
+  background-color: #660000;
+  color: #ffffff;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 8px;
+  width: 420px;
+  text-align: left;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.kotakk {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 8px;
+  width: 120px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.k {
+	background-color: #E5E5E5;
+  padding: 10px;
+  border-radius: 10px;
+  width: 10px;
+  text-align: right-side;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #252747;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #635bdb;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #990000;
+	padding: 10px 36px;
+}
+
+.navbar2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1A1AB2;
+	padding: 10px 36px;
+}
+
+.navbar3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #600060;
+	padding: 10px 36px;
+}
+
+.logo {
+	color: #ffffff;
+}
+
+.logoss {
+	color: #ffffff;
+	text-align: center;
+	background-color: Black;
+	margin: 0;
+}
+
+.nav-links {
+	display: flex;
+	list-style: none;
+	gap: 25px;
+}
+
+.nav-links a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-links a:hover {color: yellow}
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	gap: 80px;
+	padding: 60px 0;
+}
+.hero-text { flex: 1; }
+.hero-image { flex: 1; text-align: center; }
+.hero-image img {
+	width: 340px;
+	height: 340px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 6px solid #1A1AB2;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
